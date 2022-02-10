@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: FifthElementTesting.cpp
-      run: ./FifthElementTesting.cpp
+      run: ./Lab: Fifth Element 5.4/FifthElementTesting.cpp
     - name: make
       run: make
     - name: make check
