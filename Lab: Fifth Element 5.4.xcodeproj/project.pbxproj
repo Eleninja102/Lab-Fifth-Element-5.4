@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D8CF45427B4BE8F0010DAC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CF45327B4BE8F0010DAC7 /* main.cpp */; };
+		1D8CF45D27B4BE9D0010DAC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CF45A27B4BE9C0010DAC7 /* main.cpp */; };
+		1D8CF45E27B4BE9D0010DAC7 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CF45B27B4BE9D0010DAC7 /* LinkedListTester.cpp */; };
+		1D8CF46027B4BEB70010DAC7 /* FifthElementTesting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CF45F27B4BEB60010DAC7 /* FifthElementTesting.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		1D8CF45027B4BE8F0010DAC7 /* Lab: Fifth Element 5.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab: Fifth Element 5.4"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D8CF45327B4BE8F0010DAC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D8CF45A27B4BE9C0010DAC7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../No Brainer: Linked List 5.1/No Brainer: Linked List 5.1/main.cpp"; sourceTree = "<group>"; };
+		1D8CF45B27B4BE9D0010DAC7 /* LinkedListTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		1D8CF45C27B4BE9D0010DAC7 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		1D8CF45F27B4BEB60010DAC7 /* FifthElementTesting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FifthElementTesting.cpp; sourceTree = "<group>"; };
+		1D8CF46127B4BED20010DAC7 /* FifthElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthElement.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		1D8CF45227B4BE8F0010DAC7 /* Lab: Fifth Element 5.4 */ = {
 			isa = PBXGroup;
 			children = (
-				1D8CF45327B4BE8F0010DAC7 /* main.cpp */,
+				1D8CF45C27B4BE9D0010DAC7 /* LinkedList.h */,
+				1D8CF45B27B4BE9D0010DAC7 /* LinkedListTester.cpp */,
+				1D8CF45A27B4BE9C0010DAC7 /* main.cpp */,
+				1D8CF45F27B4BEB60010DAC7 /* FifthElementTesting.cpp */,
+				1D8CF46127B4BED20010DAC7 /* FifthElement.h */,
 			);
 			path = "Lab: Fifth Element 5.4";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8CF45427B4BE8F0010DAC7 /* main.cpp in Sources */,
+				1D8CF45E27B4BE9D0010DAC7 /* LinkedListTester.cpp in Sources */,
+				1D8CF45D27B4BE9D0010DAC7 /* main.cpp in Sources */,
+				1D8CF46027B4BEB70010DAC7 /* FifthElementTesting.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
